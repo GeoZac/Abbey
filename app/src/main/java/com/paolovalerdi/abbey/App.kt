@@ -27,7 +27,7 @@ class App : Application() {
             private set
 
         val isProVersion
-            get() = BuildConfig.DEBUG or instance.billingProcessor.isPurchased(PRO_VERSION_PRODUCT_ID)
+            get() = true
 
     }
 
