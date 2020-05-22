@@ -13,6 +13,7 @@ buildscript {
     }
 }
 
+/*
 def getProperties(String fileName) {
     final Properties properties = new Properties()
     def file = file(fileName)
@@ -25,6 +26,7 @@ def getProperties(String fileName) {
 static def getProperty(Properties properties, String name) {
     return properties.getProperty(name) ?: "$name missing"
 }
+*/
 
 android {
 
@@ -44,11 +46,13 @@ android {
 
     signingConfigs {
         release {
+            /*
             Properties properties = getProperties('C:/Users/Paolo/Documents/AbbeyResources/abbeyKeyStore.properties')
             storeFile file(getProperty(properties, 'storeFile'))
             keyAlias getProperty(properties, 'keyAlias')
             storePassword getProperty(properties, 'storePassword')
             keyPassword getProperty(properties, 'keyPassword')
+            */
         }
     }
 
