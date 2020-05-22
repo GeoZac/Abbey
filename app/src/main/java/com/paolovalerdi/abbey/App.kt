@@ -15,7 +15,7 @@ class App : Application() {
 
     companion object {
 
-        const val GOOGLE_PLAY_LICENSE_KEY = BuildConfig.GOOGLE_PLAY_LICENSE_KEY
+        const val GOOGLE_PLAY_LICENSE_KEY = "some_very_long_string"
         const val PRO_VERSION_PRODUCT_ID = "pro_version"
 
         @SuppressLint("StaticFieldLeak")
